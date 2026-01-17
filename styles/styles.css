@@ -1,29 +1,76 @@
-main {
-  max-width: 800px;
-  margin: 0 auto;
-}
-aside {
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #555;
-  padding: 15px;
-  background-color: #f4f4f4;
-  color: #333;
+/* ========================================================
+   WDD 130 Homepage CSS - Joseph Amofa Boateng
+   This file styles the navigation, main content, aside, and footer.
+   ======================================================== */
+
+/* ---------------------------
+   Navigation Bar
+--------------------------- */
+nav {
+  background-color: steelblue; 
+  padding: 10px;               
 }
 
-aside img {
-  width: 200px;
-  height: auto;
+/* Navigation links */
+nav a {
+  color: white;                
+  padding: 10px;               
+  display: block;             
+  text-decoration: none;       
 }
+
+/* ---------------------------
+   Main Content
+--------------------------- */
+main {
+  max-width: 800px;            
+  margin: 0 auto;              
+}
+
+/* Heading inside main */
+h1 {
+  color: darkslategray;        
+}
+
+/* Profile image inside main */
 main img {
-  width: 150px;
-  height: auto;
+  width: 150px;                
+  height: auto;                
+  border: 2px solid #333;      
+  padding: 5px;                
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
 }
+
+/* ---------------------------
+   Aside Section
+--------------------------- */
+aside {
+  width: 300px;                
+  margin: 20px auto;        
+  border: 1px solid #555;      
+  padding: 15px;               
+  background-color: #f4f4f4;   
+  color: #333;                 
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;                
+  height: auto;                
+}
+
+/* ---------------------------
+   Paragraphs
+--------------------------- */
 p {
-  padding: 0;
+  padding: 0;                  
 }
+
+/* ---------------------------
+   Footer
+--------------------------- */
 footer {
-  margin-top: 20px;
-  border-top: 1px solid #333;
-  text-align: center;
+  margin-top: 20px;            
+  border-top: 1px solid #333;  
+  text-align: center;          
 }
