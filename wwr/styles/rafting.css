@@ -19,9 +19,10 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
-/* Layout width */
+/* Page width */
 header,
 main,
 footer {
@@ -34,6 +35,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--secondary-color);
+    padding: 16px;
 }
 
 header img {
@@ -45,7 +48,7 @@ nav a {
     margin: 8px;
     padding: 8px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--accent2-color);
     font-weight: bold;
 }
 
@@ -56,7 +59,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* Content spacing */
+/* General spacing */
 nav,
 p,
 section,
@@ -65,18 +68,19 @@ article {
     padding: 8px;
 }
 
-/* Hero section */
+/* Hero Section */
 .hero {
     position: relative;
 }
 
+/* Hero Image */
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/* Hero heading overlay */
+/* Hero Heading Overlay */
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -84,25 +88,31 @@ article {
     padding: 16px;
     text-align: center;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--accent2-color);
     opacity: 0.8;
 }
 
-/* Hero article overlay */
+/* Hero Article Overlay */
 .hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 16px;
     width: 60%;
+    background-color: var(--accent2-color);
+    padding: 16px;
+    color: var(--accent1-color);
 }
 
-/* Article image */
+/* Article Image */
 .hero article img {
     float: right;
     width: 125px;
     margin-left: 16px;
+}
+
+/* Sections */
+section {
+    background-color: var(--accent2-color);
 }
 
 /* Footer */
@@ -110,8 +120,15 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--secondary-color);
+    padding: 16px;
 }
 
+footer p {
+    color: var(--accent2-color);
+}
+
+/* Social Media Links */
 .socialmedia a {
     text-decoration: none;
 }
