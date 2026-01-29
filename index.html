@@ -1,50 +1,108 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="WDD 130 course home page for Web Fundamentals">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Rapids Rafting Company</title>
+    <meta name="description"
+      content="Learn about Rapids Rafting Company, our mission, history, and passion for unforgettable white water rafting adventures.">
     <meta name="author" content="Joseph Amofa Boateng">
-    <title>WDD 130 | Home</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
+
     <header>
-        <h1>WDD 130: Web Fundamentals</h1>
+        <img src="images/logo.png" alt="Rapids Rafting Company Logo">
         <nav>
             <a href="index.html">Home</a>
-            <a href="https://www.linkedin.com/in/joseph-amofa-boateng-779212371/">LinkedIn</a>
-            <a href="https://web.facebook.com/Josephboateng31">Facebook</a>
-            <a href="wwr/index.html">Rafting Website</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <!-- GRID WRAPPER -->
-    <div class="grid">
-        <aside>
-            <h2>About Me</h2>
-            <img src="images/profile.jpg" alt="Photo of Joseph Amofa Boateng">
-            <p>
-                Hello! My name is Joseph Amofa Boateng. I am studying Web Development
-                and enjoy learning how to build accessible, responsive websites.
-            </p>
-        </aside>
+    <main>
 
-        <main>
-            <h2>Course Work</h2>
-            <p>
-                This page showcases my progress in WDD 130. Throughout this course,
-                I will build projects using HTML and CSS while following modern
-                frontend development standards.
-            </p>
-        </main>
-    </div>
+        <!-- Hero section (keep your existing hero code here) -->
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Group enjoying a white water rafting adventure">
+            <h1>Rapids Rafting Company</h1>
+            <article>
+                <img src="images/client.jpg" alt="Happy client after a successful rafting trip">
+                <p>Experience the thrill of whitewater rafting with expert guides and unforgettable
+                    adventures!</p>
+            </article>
+        </div>
+
+        <!-- History section -->
+        <section>
+            <h2>History</h2>
+            <p>Founded in 2010, Rapids Rafting Company started with a small team of passionate
+                adventurers on the rivers of Ghana and has grown into a leading provider of safe,
+                exciting whitewater experiences across stunning locations. Our commitment to safety,
+                fun, and environmental respect has made us a favorite among thrill-seekers
+                worldwide.</p>
+        </section>
+
+        <!-- This is the second section – now fixed with 5 <figure> elements -->
+        <section>
+            <h2>Adventure Awaits You!</h2>
+            <p>Join us for unforgettable rafting experiences. Here are some of the thrilling rapids
+                and trips we offer:</p>
+
+            <figure>
+                <img src="images/salt-lake-temple.jpg"
+                  alt="Rafters navigating the intense Los Dientes del Diablo rapid" width="400"
+                  height="267" loading="lazy">
+                <figcaption>Los Dientes del Diablo</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/ghana.jpg"
+                  alt="Powerful waves of the Big Mallard rapid in full action" width="400"
+                  height="267" loading="lazy">
+                <figcaption>Big Mallard</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/A_drone_footage_of_Accra_central,_Ghana.jpg"
+                  alt="Group enjoying a fun half-day rafting adventure" width="400" height="267"
+                  loading="lazy">
+                <figcaption>Half Day Adventure</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Coat_of_arms_of_Ghana.svg.webp"
+                  alt="Rafters battling the challenging Terminator rapid" width="400" height="267"
+                  loading="lazy">
+                <figcaption>Terminator</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Flag_of_Ghana.svg"
+                  alt="Epic run through the famous Sockdolager rapid" width="400" height="267"
+                  loading="lazy">
+                <figcaption>Sockdolager</figcaption>
+            </figure>
+
+        </section>
+
+    </main>
 
     <footer>
-        <p>© 2026 | Joseph Amofa Boateng | Ghana</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"><img src="images/facebook.png"
+                  alt="Visit us on Facebook"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.png"
+                  alt="Follow us on Twitter"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.jpg"
+                  alt="Follow us on Instagram"></a>
+        </nav>
+        <p>© 2026 Rapids Rafting Company | Joseph Amofa Boateng</p>
     </footer>
+
 </body>
 
 </html>
