@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
 }
 
-/* MAX-WIDTH CENTERING */
+/* MAX-WIDTH & CENTERING */
 header,
 .grid,
 footer {
@@ -26,14 +26,14 @@ header {
   color: #ffffff;
 }
 
-/* H1 BORDER */
+/* H1 BORDER (REQUIRED) */
 header h1 {
   border-bottom: 3px solid #ffffff;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
-/* NAV FLEX */
+/* NAV FLEXBOX (REQUIRED) */
 nav {
   display: flex;
   justify-content: space-evenly;
@@ -41,7 +41,7 @@ nav {
   background-color: #1d3557;
 }
 
-/* NAV LINKS */
+/* NAV LINKS (BLOCK + PADDING) */
 nav a {
   display: block;
   padding: 0.75rem 1rem;
@@ -54,7 +54,7 @@ nav a:hover {
   background-color: #457b9d;
 }
 
-/* GRID LAYOUT */
+/* GRID LAYOUT (REQUIRED) */
 .grid {
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -62,7 +62,7 @@ nav a:hover {
   margin-top: 1rem;
 }
 
-/* ASIDE */
+/* ASIDE (GRID-ROW REQUIRED) */
 aside {
   grid-row: 1 / 2;
   background-color: #f1faee;
