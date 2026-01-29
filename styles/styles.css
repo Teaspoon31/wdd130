@@ -1,76 +1,84 @@
-/* ========================================================
-   WDD 130 Homepage CSS - Joseph Amofa Boateng
-   This file styles the navigation, main content, aside, and footer.
-   ======================================================== */
-
-/* ---------------------------
-   Navigation Bar
---------------------------- */
-nav {
-  background-color: steelblue; 
-  padding: 10px;               
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Navigation links */
-nav a {
-  color: white;                
-  padding: 10px;               
-  display: block;             
-  text-decoration: none;       
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
-/* ---------------------------
-   Main Content
---------------------------- */
-main {
-  max-width: 800px;            
-  margin: 0 auto;              
-}
-
-/* Heading inside main */
-h1 {
-  color: darkslategray;        
-}
-
-/* Profile image inside main */
-main img {
-  width: 150px;                
-  height: auto;                
-  border: 2px solid #333;      
-  padding: 5px;                
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
-}
-
-/* ---------------------------
-   Aside Section
---------------------------- */
-aside {
-  width: 300px;                
-  margin: 20px auto;        
-  border: 1px solid #555;      
-  padding: 15px;               
-  background-color: #f4f4f4;   
-  color: #333;                 
-}
-
-/* Image inside aside */
-aside img {
-  width: 200px;                
-  height: auto;                
-}
-
-/* ---------------------------
-   Paragraphs
---------------------------- */
-p {
-  padding: 0;                  
-}
-
-/* ---------------------------
-   Footer
---------------------------- */
+/* MAX-WIDTH CENTERING */
+header,
+.grid,
 footer {
-  margin-top: 20px;            
-  border-top: 1px solid #333;  
-  text-align: center;          
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* HEADER */
+header {
+  background-color: #003049;
+  color: #ffffff;
+}
+
+/* H1 BORDER */
+header h1 {
+  border-bottom: 3px solid #ffffff;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* NAV FLEX */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1d3557;
+}
+
+/* NAV LINKS */
+nav a {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #457b9d;
+}
+
+/* GRID LAYOUT */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* ASIDE */
+aside {
+  grid-row: 1 / 2;
+  background-color: #f1faee;
+  padding: 1rem;
+}
+
+/* MAIN */
+main {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #003049;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1rem;
 }
