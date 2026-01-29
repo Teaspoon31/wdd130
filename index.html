@@ -3,55 +3,100 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-      content="WDD 130 course home page showcasing layout enhancements using Flexbox and CSS Grid.">
+      content="Learn about Rapids Rafting Company, our mission, history, and passion for unforgettable white water rafting adventures.">
     <meta name="author" content="Joseph Amofa Boateng">
-    <title>WDD 130 | Home</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>About Us | Rapids Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <h1>WDD 130: Web Fundamentals</h1>
+        <img src="images/logo.png" alt="Rapids Rafting Company Logo">
 
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="https://www.linkedin.com"
-              target="https://www.linkedin.com/in/joseph-amofa-boateng-779212371/"
-              rel="noopener">LinkedIn</a>
-            <a href="https://www.facebook.com" target="https://web.facebook.com/Josephboateng31"
-              rel="noopener">Facebook</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
     </header>
 
-    <!-- GRID WRAPPER (REQUIRED) -->
-    <div class="grid">
-        <aside>
-            <h2>About Me</h2>
-            <p>
-                My name is Joseph Amofa Boateng. I am studying web development and learning how
-                to build accessible, responsive websites using modern layout techniques.
-            </p>
-        </aside>
+    <main>
+        <!-- HERO SECTION -->
+        <div class="hero">
+            <img src="images/hero.jpg" alt="Group enjoying a white water rafting adventure">
 
-        <main>
-            <h2>Welcome</h2>
-            <p>
-                This homepage demonstrates layout enhancements using CSS Flexbox
-                and CSS Grid as part of the Week 04 code-along activity.
-            </p>
+            <h1>Rapids Rafting Company</h1>
 
+            <article>
+                <img src="images/client.jpg" alt="Happy client after a successful rafting trip">
+                <p>
+                    At Rapids Rafting Company, we are dedicated to providing thrilling,
+                    safe, and unforgettable white water rafting experiences. Our team
+                    of professional guides ensures every adventure is both exciting
+                    and memorable.
+                </p>
+            </article>
+        </div>
+
+        <!-- HISTORY SECTION -->
+        <section>
+            <h2>History</h2>
             <p>
-                The navigation menu uses Flexbox for horizontal alignment, while
-                the page layout uses CSS Grid to position the aside and main sections.
+                Founded with a passion for adventure and nature, Rapids Rafting Company
+                has spent years guiding families, thrill-seekers, and explorers through
+                some of the most breathtaking river routes. Safety, fun, and respect
+                for the environment remain at the heart of everything we do.
             </p>
-        </main>
-    </div>
+        </section>
+
+        <!-- ADVENTURE SECTION (FIXED WITH FIGURES) -->
+        <section>
+            <h2>Adventure Awaits You!</h2>
+
+            <figure>
+                <img src="images/rafting1.jpg" alt="Family enjoying a calm rafting experience">
+                <figcaption>Fun and safe rafting experiences for families</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafting2.jpg" alt="Group navigating exciting white water rapids">
+                <figcaption>Thrilling white water adventures</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafting3.jpg" alt="Rafting team paddling through canyon waters">
+                <figcaption>Explore scenic canyon river routes</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafting4.jpg" alt="Professional guide leading a rafting trip">
+                <figcaption>Certified and experienced rafting guides</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/rafting5.jpg" alt="Raft resting by riverbank after adventure">
+                <figcaption>Relax and enjoy nature after the adventure</figcaption>
+            </figure>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2026 | Joseph Amofa Boateng | WDD 130</p>
+        <p>© 2026 Rapids Rafting Company | Joseph Amofa Boateng</p>
+
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/Josephboateng31">
+                <img src="images/facebook.png" alt="Visit Rapids Rafting Company on Facebook">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.png" alt="Follow Rapids Rafting Company on Twitter">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.jpg" alt="Follow Rapids Rafting Company on Instagram">
+            </a>
+        </nav>
     </footer>
 </body>
 
