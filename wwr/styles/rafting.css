@@ -15,6 +15,7 @@
 :root {
     --primary-color: #004080;
     --accent-color: #e6f0ff;
+    /* now used for hover */
     --text-color: #333333;
     --background-color: #f9f9f9;
 }
@@ -30,7 +31,6 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: var(--primary-color);
 }
 
@@ -54,6 +54,7 @@ header nav a {
     margin-left: 20px;
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* ============================= */
@@ -153,14 +154,24 @@ footer p {
     margin-bottom: 10px;
 }
 
+/* Social media nav */
 footer .socialmedia a {
-    margin: 0 10px;
+    text-decoration: none;
+    /* removes underlines */
     display: inline-block;
+    margin: 0 10px;
+    transition: background-color 0.3s;
 }
 
-footer .socialmedia img {
+footer .socialmedia a img {
     width: 30px;
     height: 30px;
+}
+
+/* Accent color used on hover */
+footer .socialmedia a:hover {
+    background-color: var(--accent-color);
+    border-radius: 50%;
 }
 
 /* ============================= */
