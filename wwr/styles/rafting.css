@@ -15,7 +15,7 @@
 :root {
     --primary-color: #004080;
     --accent-color: #e6f0ff;
-    /* now used for hover */
+    /* used for hover */
     --text-color: #333333;
     --background-color: #f9f9f9;
 }
@@ -157,7 +157,7 @@ footer p {
 /* Social media nav */
 footer .socialmedia a {
     text-decoration: none;
-    /* removes underlines */
+    /* fixes audit issue */
     display: inline-block;
     margin: 0 10px;
     transition: background-color 0.3s;
