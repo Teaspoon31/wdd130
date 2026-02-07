@@ -211,4 +211,69 @@ footer .socialmedia a:hover {
     figure img {
         max-width: 100%;
     }
+
+    /* Contact Page */
+
+    .contact-page {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .company-info,
+    .employees,
+    .contact-form {
+        margin-bottom: 2rem;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+    }
+
+    .employees {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .employees figure {
+        text-align: center;
+        max-width: 250px;
+    }
+
+    .employees img {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 1rem;
+    }
+
+    .checkbox {
+        margin-top: 0.5rem;
+    }
+
+    button {
+        background-color: #005f73;
+        color: white;
+        padding: 0.75rem;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #0a9396;
+    }
 }
